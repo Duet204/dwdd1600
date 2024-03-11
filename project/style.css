@@ -9,6 +9,11 @@ header {
     background-size: cover;
     font-weight: 600;
     font-size: large;
+    list-style-type: circle;
+    margin: 20px;
+    padding: 30px;
+    border-style: dashed;
+    border-radius: 30px;
 }
 
 head {
@@ -19,6 +24,8 @@ head {
     color: #888BAA;
 }
 
+/*comment */
+
 @media screen and (min-width: 601px) {}
 
 nav {
@@ -27,28 +34,43 @@ nav {
 
 nav>ul {
     display: flex;
+    list-style-type: none;
     justify-content: center;
-    padding: 0%;
+    padding-left: 0;
 }
 
 nav>ul>li {
     text-align: center;
+    padding: 5px;
 }
 
-nav>ul>a {
+nav>ul>li>a {
     text-decoration: none;
     color: black;
 }
 
+nav>ul>li>a:hover {
+    background-color: #91AABA;
+}
+
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto Mono", monospace;
     font-weight: 300;
     font-size: larger;
     color: #91AABA;
-    
+    color: #8F839A;
 }
 
 body {
     background-color: #D2D0D6;
     
 }
+
+main {
+    color: #888BAA;
+    font-weight: 300;
+}
+
+
+
+
