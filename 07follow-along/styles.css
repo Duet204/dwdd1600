@@ -24,6 +24,7 @@ nav>ul {
 
 nav>ul>li{
     border: dashed;
+    border-style: outset;
 }
 
 nav>li>a {

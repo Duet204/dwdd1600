@@ -1,5 +1,24 @@
 /* full screen size styling */
 
+header {
+    padding: 2rem 1vw;
+    display: flex;
+    align-items: center;
+    background-image: (50deg, rgb(170, 54, 54),rgba(0, 0, 255, 0.39),rgb(70, 10, 70));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-size: cover;
+    font-weight: 600;
+    font-size: large;
+}
+
+head {
+    color: #AFBED3;
+}
+
+head {
+    color: #888BAA;
+}
+
 @media screen and (min-width: 601px) {}
 
 nav {
@@ -21,3 +40,15 @@ nav>ul>a {
     color: black;
 }
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: larger;
+    color: #91AABA;
+    
+}
+
+body {
+    background-color: #D2D0D6;
+    
+}
