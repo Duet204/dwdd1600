@@ -71,6 +71,36 @@ main {
     font-weight: 300;
 }
 
+.image-right figcaption {
+    text-align: center;
+    font-size: .8rem;
+
+}
+
+table.our-activities {
+    width:100%;
+    border-collapse: collapse;
+}
+
+table.our-activities th {
+    background-color: #3179AF;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+
+table.our-activities td {
+    color: #54691F;
+    padding: .4rem 2vw;
+}
+
+table.our-activities tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+table.our-activities tr:hover {
+    background-color: rgba(84, 105, 31, .2);
+}
 
 
 
