@@ -77,30 +77,35 @@ main {
 
 }
 
-table.our-activities {
+table.about-us {
     width:100%;
     border-collapse: collapse;
+    color: #34393d;
+
 }
 
-table.our-activities th {
-    background-color: #3179AF;
+table.about-us th {
+    background-color: #34393d;
     color: white;
-    padding: .5rem 2vw;
+    padding: .2rem 2vw;
     text-align: left;
+
 }
 
-table.our-activities td {
-    color: #54691F;
-    padding: .4rem 2vw;
+table.about-us td {
+    color: #4b4d46;
+    padding: .2rem 2vw;
 }
 
-table.our-activities tr:nth-child(odd) {
+table.about-us tr:nth-child(odd) {
+    
     background-color: #f7f7f7;
+    color: black;
+    padding-top: 5px
+    
 }
 
-table.our-activities tr:hover {
+table.about-us tr:hover {
     background-color: rgba(84, 105, 31, .2);
 }
-
-
 
